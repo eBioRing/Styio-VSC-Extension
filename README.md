@@ -1,2 +1,1 @@
-# Styio-VSC-Extension
-Visual Studio Code Extension For Styio Programming Language
+# Styio Visual Studio Code Extension

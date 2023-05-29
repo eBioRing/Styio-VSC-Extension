@@ -1,13 +1,19 @@
 {
   "name": "styio-linter",
   "displayName": "Styio Linter",
-  "description": "Linter For Styio Progamming Language",
+  "description": "Styio Extension: Linter",
+  "publisher": "Styio Developer Group",
+  "license": "SEE LICENSE IN LICENSE",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Linters"
+  ],
+  "keywords": [
+    "Styio"
   ],
   "contributes": {
     "languages": [{

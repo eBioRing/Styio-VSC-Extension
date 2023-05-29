@@ -1,0 +1,25 @@
+{
+  "name": "styio-linter",
+  "displayName": "Styio Linter",
+  "description": "Linter For Styio Progamming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "styio",
+      "aliases": ["styio", "syo"],
+      "extensions": [".styio",".syo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "styio",
+      "scopeName": "source.styio",
+      "path": "./syntaxes/styio.tmLanguage.json"
+    }]
+  }
+}
